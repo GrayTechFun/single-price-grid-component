@@ -1,0 +1,145 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #cfdeec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 30em;
+  height: 60em;
+  border-radius: 0.5em;
+  margin: auto;
+  margin-top: 5em;
+}
+
+.white {
+  background-color: white;
+  height: 20em;
+  padding-top: 2em;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+h1 {
+  color: #2d9993;
+  margin-left: 1em;
+}
+
+.day {
+  color: #bed75f;
+  margin-left: 1.2em;
+  margin-top: 1.5em;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.gain {
+  color: #afb1b8;
+  line-height: 1.8em;
+  font-size: 1.3rem;
+  margin-left: 1.3em;
+  margin-top: 1em;
+}
+
+.left {
+  height: 20em;
+  background-color: #28a6a2;
+  padding-top: 2em;
+}
+
+h2 {
+  color: white;
+  margin-left: 1em;
+}
+
+.bottom p {
+  color: white;
+}
+
+.right {
+  padding-top: 2em;
+  height: 20em;
+  background-color: #3fb2b0;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+span {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.left p {
+  margin-left: 1.3em;
+  font-size: 1.3rem;
+}
+
+.month {
+  margin-top: 1.5em;
+}
+
+.access {
+  margin-top: 0.5em;
+}
+
+button {
+  background-color: #b4de25;
+  border-style: none;
+  width: 20em;
+  height: 3em;
+  border-radius: 0.5em;
+  margin-left: 1.3em;
+  margin-top: 2em;
+  color: white;
+}
+
+.why {
+  font-size: 1.3rem;
+  margin-left: 1em;
+  margin-top: 2em;
+  margin-right: 9em;
+  line-height: 1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    height: 60em;
+    width: 60em;
+    margin-top: 15em;
+  }
+  .bottom {
+    display: flex;
+  }
+
+  .white {
+    width: 60em;
+  }
+
+  .right {
+    width: 30em;
+    border-radius: 0 0 0.5em 0;
+  }
+
+  .left {
+    width: 30em;
+    border-radius: 0 0 0 0.5em;
+  }
+
+  .why {
+    margin-right: 0;
+  }
+
+  button {
+    width: 15em;
+  }
+
+  .gain {
+    margin-right: 10em;
+  }
+}
